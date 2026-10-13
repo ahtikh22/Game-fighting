@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+@layer utilities {
+  .font-rajdhani {
+    font-family: 'Rajdhani', sans-serif;
+  }
+  .font-chakra {
+    font-family: 'Chakra Petch', sans-serif;
+  }
+  .font-teko {
+    font-family: 'Teko', sans-serif;
+  }
+}
+
+/* Custom scrollbars and gaming aesthetics */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: rgba(15, 23, 42, 0.6);
+}
+::-webkit-scrollbar-thumb {
+  background: #f59e0b;
+  border-radius: 3px;
+}
+
+@keyframes pulseGlow {
+  0%, 100% { opacity: 0.8; filter: drop-shadow(0 0 8px rgba(245, 158, 11, 0.8)); }
+  50% { opacity: 1; filter: drop-shadow(0 0 18px rgba(239, 68, 68, 1)); }
+}
+
+.fire-glow {
+  animation: pulseGlow 2s infinite ease-in-out;
+}

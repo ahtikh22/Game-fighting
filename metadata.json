@@ -1,0 +1,6 @@
+{
+  "name": "Free Fire: Strike Royale",
+  "description": "Action-packed battle royale survival shooter featuring houses, escalating level campaigns, diverse characters (boys & girls), weapon upgrades, diverse maps, and multiplayer battle royale.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
